@@ -19,11 +19,12 @@ class VegetableList extends StatelessWidget {
                 child: VegetableTileWidget(vegetable: vegetable),
                 onTap: () {
                   Navigator.push(
-                      context,
-                      MaterialPageRoute(
-                        builder: (context) =>
-                            VegetableDetail(vegetable: vegetable),
-                      ),);
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) =>
+                          VegetableDetail(vegetable: vegetable),
+                    ),
+                  );
                   // Navigator.pushReplacement(context, "/detail");
                 },
               ),

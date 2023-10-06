@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vegitable_cart/models/model_list.dart';
+import 'package:vegitable_cart/widgets/custom_button.dart';
 
 class OnBoardingScreen extends StatefulWidget {
   const OnBoardingScreen({super.key});
@@ -60,6 +61,7 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
                         const SizedBox(
                           height: 40,
                         ),
+                        const CustomButton(),
                       ]),
                 ),
               );

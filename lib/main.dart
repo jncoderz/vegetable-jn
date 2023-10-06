@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       debugShowCheckedModeBanner: false,
-      // initialRoute: "/",
+      initialRoute: "/",
       routes: {
         "/": (context) => const OnBoardingScreen(),
         // "/detail": (context) =>   VegetableDetail(vegetable: vegetable,),
